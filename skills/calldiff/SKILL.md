@@ -1,8 +1,8 @@
 ---
 name: calldiff
-description: Diff call stacks across git commits — like git diff, but for who-calls-whom. Shows which callees appeared, disappeared, or moved under an entrypoint across 22 languages (diff, tree, and reach). Use for agentic code review when call flow changed and line diffs bury the shape of the change.
-requires_bin: calldiff
-command: calldiff
+metadata:
+  version: '0.5.0'
+description: 按需比较 Git 状态之间的静态调用树，查看调用关系的新增、删除和移动。
 ---
 
 # calldiff diff
